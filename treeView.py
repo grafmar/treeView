@@ -57,6 +57,7 @@ class DirTreeView(QWidget):
         self.model.setRootPath('')
         self.tree_view.setModel(self.model)
         self.tree_view.setRootIndex(self.model.index(''))
+        self.tree_view.setSortingEnabled(True)
 
         # Set the size of the first column of the tree view to 450 pixels
         self.tree_view.header().resizeSection(0, 450)
