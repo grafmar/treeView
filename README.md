@@ -5,10 +5,10 @@ This python script is generated using ChatGPT
 I looked for a tool to display directories and files. I saw an example using
 PyQT5 and had some ideas, so I asked ChatGPT to generate the code ;-)
 
-<img src="doc/treeview.png" alt="treeView" width="30%"/> <img src="doc/treeview_files.png" alt="treeView with files" width="30%"/>
+<img src="doc/treeview.png" alt="treeView" width="50%"/> <img src="doc/treeview_files.png" alt="treeView with files" width="50%"/>
 
 ## Download
-[Precompiled executable](treeView.exe)
+[Precompiled executable](https://github.com/grafmar/treeView/raw/master/treeView.exe)
 
 ## SW-Requirements
 * [Python](https://www.python.org/) (V 3.7.3 used)
@@ -18,9 +18,10 @@ PyQT5 and had some ideas, so I asked ChatGPT to generate the code ;-)
 
 ### To create a standalone executable you can use pyinstaller
 `pip install pyinstaller`
+
 `pyinstaller.exe --onefile --windowed .\treeView.py`
 
-## Description of the code given by ChatGPT
+## Description of the code given by [ChatGPT](https://chat.openai.com/)
 1. First, we import the necessary modules from PyQt5:
 2. Next, we define a class called DirTreeView that inherits from QWidget. This class represents the main window of the GUI and contains all the widgets and functionality.
 3. In the __init__ method of the DirTreeView class, we create a QFileSystemModel object, which will be used to display the directory tree. We also create a boolean flag called filter_directories_only, which determines whether to show only directories or both directories and files in the tree view. By default, we set this flag to True, so that only directories are displayed.
