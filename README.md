@@ -5,7 +5,7 @@ This python script is generated using ChatGPT
 I looked for a tool to display directories and files. I saw an example using
 PyQT5 and had some ideas, so I asked ChatGPT to generate the code ;-)
 
-<img src="doc/treeview.png" alt="treeView" width="50%"/> <img src="doc/treeview_files.png" alt="treeView with files" width="50%"/>
+<img src="doc/treeview.png" alt="treeView" width="45%"/> <img src="doc/treeview_files.png" alt="treeView with files" width="45%"/>
 
 ## Download
 [Precompiled executable](https://github.com/grafmar/treeView/raw/master/treeView.exe)
